@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue; /* Light background color */
+}
+
+nav {
+    margin-top: 2%;
+    background-color: royalblue ;/* Dark background color */
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: maroon;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: royalblue; /* Dark text color */
+}
+
+p {
+    color: #666; /* Medium dark text color */
+    line-height: 1.5;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+  }

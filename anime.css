@@ -1,0 +1,170 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+.caption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(formBg.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	
+}
+h3
+{
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 100px;
+	position: relative;
+	color: maroon;
+
+}
+/*.Loginform
+{
+
+}*/
+/*.container
+{
+	padding: 25px 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width:3550spx;
+	height:450px;
+	border-radius: 5px;
+	border: 10px solid rgba(255, 255, 255, .2);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+}
+.imgBx
+{
+	width: 50%;
+	height: 50%px;
+	overflow: hidden;
+	float: left;
+	text-align:center ;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+.imgBx imgBx 
+{
+width: 100%;
+
+}
+/*.loginBx
+{
+	float: right;
+	width: 450px;
+	height: 380px;
+	box-sizing: border-box;
+	padding: 50px 40px;
+	background:rgba(255, 255,255.8);
+
+}*/
+
+/*body
+{
+display: flex;
+height: 100vh;
+background: linear-gradient(135deg);
+padding: 10px;
+}
+/*.submit
+{
+	display: block;
+	width: 60%;
+	margin-top: 1px;
+	height: 40%;
+
+}*/
+/*label
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	color:brown ;
+}
+input{
+	width: 60%;
+	border-radius: 4px;
+	height: 80%;
+	color: brown;
+
+}
+textarea{
+	width: 60%;
+	color: brown;
+	height: 70%;
+	margin-bottom: 4px;
+	border: solid;
+}*/
+
+#toplist {
+    background-color: none;
+    list-style-type: none;
+    padding: 1px 2px;
+    overflow: hidden;
+    display: block; /* Adjusting the display property to block */
+}
+
+#toplist li {
+    display: inline-block; /* Adjusting list items to display inline-block */
+    margin-right: 20px;
+}
+
+li a {
+    color: royalblue;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+}
+
+li a:hover {
+    background-color: #FFF6E9;
+    color: brown;
+}
+
+p{
+	margin-top: 0px;
+	color: royalblue;
+}
+/*h1{
+	margin-top: 0px;
+	color: blue;
+	font-size: 50%;
+	font-weight: 50%;
+	color: royalblue;
+}*/
+/*button{
+	padding: 2px;
+	border-radius: 3px;
+	margin-top: 10%;
+
+}*/

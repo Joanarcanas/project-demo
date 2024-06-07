@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+
+.container {
+    padding: 25px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: auto; /* Changed height to auto */
+    border-radius: 5px;
+    border: 10px solid rgba(255, 255, 255, .2);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+}
+
+.imgBx {
+    width: 40%;
+    height: 60%;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBx img {
+    width: 100%;
+}
+
+button.submit {
+    display: block;
+    width: calc(100% - 60px); /* Adjusted button width */
+    margin-top: 20px;
+    height: 40px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.submit:hover {
+    background-color: navy;
+}
+
+label {
+    display: block;
+    margin-top: 20px; /* Adjusted margin */
+    text-align: left;
+}
+
+.input_control {
+    margin-bottom: 20px; /* Added margin */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: calc(100% - 30px); /* Adjusted input width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#toplist {
+    background-color: none;
+    list-style-type: none;
+    padding: 1px 2px;
+    overflow: hidden;
+}
+
+#toplist li {
+    display: inline;
+    margin-right: 20px;
+    float: left;
+}
+
+li a {
+    color: royalblue;
+    text-decoration: none;
+    padding: 8px 10px;
+   
+    transition: background-color 0.3s ease; /* Added transition */
+}
+
+li a:hover {
+    background-color: #FFF6E9;
+    color: brown;
+    /*z-index: 1; /* Added z-index */
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+p {
+    margin-top: 0;
+    color: royalblue;
+}

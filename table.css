@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Add your background image URL */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin: 1%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 10px;
+}
+
+nav ol {
+    list-style-type: none;
+    margin: 1%;
+    padding: 1px;
+}
+
+nav ol li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ol li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ol li a:hover {
+    color: lightgreen;
+}
+
+main {
+    padding: 20px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
